@@ -62,18 +62,20 @@ export default function Home() {
 
     {/* Item 2 */}
     <Link href="/work/project-2" className="group cursor-pointer">
-      <div className="overflow-hidden">
-        <video 
-        src="/shipyards.mp4"
-        autoPlay
-        loop
-        muted
-        playsInline
-        className="w-full h-[500px] object-cover mb-10"
-      />
-      </div>
-      <p className="mt-4 text-sm opacity-70">Web Design</p>
-    </Link>
+  <div className="overflow-hidden">
+    
+    <video 
+      src="/shipyards.mp4"
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="w-full h-[300px] object-cover transition duration-500 group-hover:scale-110"
+    />
+
+  </div>
+  <p className="mt-4 text-sm opacity-70">Shipyards Night Market</p>
+</Link>
 
     {/* Item 3 */}
     <Link href="/work/project-3" className="group cursor-pointer">
