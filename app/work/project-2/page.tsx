@@ -10,8 +10,12 @@ export default function ProjectPage() {
         A modern website focused on strong visual identity and user experience.
       </p>
 
-      <img 
-        src="https://images.unsplash.com/photo-1529336953121-ad5a0d43d0d2"
+      <video 
+        src="/shipyards.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
         className="w-full h-[500px] object-cover mb-10"
       />
 
