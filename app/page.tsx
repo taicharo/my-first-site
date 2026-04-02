@@ -63,10 +63,14 @@ export default function Home() {
     {/* Item 2 */}
     <Link href="/work/project-2" className="group cursor-pointer">
       <div className="overflow-hidden">
-        <img 
-          src="https://images.unsplash.com/photo-1529336953121-ad5a0d43d0d2"
-          className="w-full h-[300px] object-cover group-hover:scale-110 transition duration-500"
-        />
+        <video 
+        src="/shipyards.mp4"
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="w-full h-[500px] object-cover mb-10"
+      />
       </div>
       <p className="mt-4 text-sm opacity-70">Web Design</p>
     </Link>
